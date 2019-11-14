@@ -1,0 +1,39 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "dependencies": {
+    "animejs": "^3.1.0",
+    "concurrently": "^5.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "if-env": "^1.0.4",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.3",
+    "path": "^0.12.7",
+    "plotly.js": "^1.50.0",
+    "react-plotly.js": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dylster99/Project-3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dylster99/Project-3/issues"
+  },
+  "homepage": "https://github.com/Dylster99/Project-3#readme"
+}

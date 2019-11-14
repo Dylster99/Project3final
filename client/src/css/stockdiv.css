@@ -1,0 +1,52 @@
+.watchlistbxs {
+    background-color:lightgray;
+    color: black;
+    width: 300px;
+    border-radius: 20px;
+    margin: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+}
+.watchlistbtn {
+    background-color: #555555;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 20px;
+  }
+  .watchlistbtn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .watchlistbtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .watchlistbtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .watchlistbtn:hover span {
+    padding-right: 25px;
+  }
+  
+  .watchlistbtn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .watchlistText{
+      color: black;
+  }

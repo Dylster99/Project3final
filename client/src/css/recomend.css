@@ -1,0 +1,20 @@
+.recomendBX {
+  background-color: black;
+  position: fixed;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  width: 15%;
+  margin-left: 10px;
+
+}
+.stockTxt {
+  color: white;
+  text-align: center;
+}
+.up {
+  color: green;
+}
+.down {
+  color: red;
+}
