@@ -6,7 +6,7 @@ const Contact = () => {
 
         <div>
             <Header/>
-            <div id = contactpagetext>
+            <div id = "contactpagetext">
             <h1>Here are some ways to contact us</h1>
             <p>
             Thank you for visiting our site! You may have already seen that some functions of our app aren't working if done quickly, this is due to us using a free api for this project making it difficult to display all the info we want with limited calls. If you are having problems with a certain function try slowing down to let our api catch up or report this issue to one of the developers below.
