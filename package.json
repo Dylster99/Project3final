@@ -10,7 +10,7 @@
     "express-session": "^1.17.0",
     "if-env": "^1.0.4",
     "moment": "^2.24.0",
-    "mongoose": "^5.7.3",
+    "mongoose": "^5.7.5",
     "path": "^0.12.7",
     "plotly.js": "^1.50.0",
     "react-plotly.js": "^2.3.0"
